@@ -15,7 +15,7 @@ public class Chickens02 {
     	//Fazendo as contas 
     	dailyAverage= totalEggs / 3.0;
     	monthlyAverage= dailyAverage * 30;
-    	monthlyAverage= monthlyAverage * 0.18;
+    	monthlyProfit= monthlyAverage * 0.18;
 
         System.out.println("Daily Average:   " +dailyAverage);
         System.out.println("Monthly Average: " +monthlyAverage);
